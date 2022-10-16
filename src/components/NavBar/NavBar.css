@@ -1,0 +1,35 @@
+@import url(//db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+.bg {
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+ 
+
+/* .logo{
+    width: 10em;
+} */
+
+.categorias {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 45px;
+    letter-spacing: 1.87px;
+}
+
+.categoria {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-right: 20px;
+
+}
+
+.categoria:hover {
+    color: rgb(255, 192, 1);
+}
+
+.carrito {
+    color: #ffc001;
+
+}

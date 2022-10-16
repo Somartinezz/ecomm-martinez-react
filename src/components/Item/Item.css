@@ -1,0 +1,74 @@
+/* ---IMPORTS--- */
+@import url('https://fonts.googleapis.com/css2? family= Alkalami & family= Amatic+SC & family= Peralta & display=swap');
+
+.card- {
+    /* ---Shadow--- */
+    display: flex;
+    margin: 20px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    margin-bottom: 0.25rem!important;
+    border: 0!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.356)!important;
+}
+
+.card-body- {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: inherit;
+}
+
+.titulo {
+    font-family: 'Peralta',cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: start;
+    color: #2f2f2f;
+    margin-bottom: auto;
+}
+
+
+.tipo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 0.8em;
+    text-align: start;
+    letter-spacing: normal;
+    line-height: 22px;
+    color: #222222bf;
+    margin-top: 20px;
+}
+
+
+.precio {
+    font-family:'Amatic SC', cursive;
+    font-size: 1em;
+    color: #222222;
+    min-height: 1rem;
+    margin-top: 12px;
+}
+
+
+.btn-details {
+    background-color: #ffc001;
+    border-color: rgb(255, 221, 3);
+}
+
+
+.btn-details:hover {
+    background-color: #ffffff;
+    border-color: #ffc001;
+}
+
+
+.details {
+    color: black;
+    text-decoration: none;
+    font-family: 'Peralta',cursive;
+}
+
+
+.details:hover {
+    color: #ffc001;
+}
+

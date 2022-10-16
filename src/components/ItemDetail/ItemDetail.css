@@ -1,0 +1,117 @@
+/* ----- imports -----*/
+
+@import url('https://fonts.googleapis.com/css2? family= Alkalami & family= Amatic+SC & family= Peralta & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* Sweet Alert */
+
+.position-absolute {
+    position:sticky;
+    margin-top: 70px;
+    margin-top: 15px;
+}
+
+
+/* Detalles del Producto */
+.caja-contenedora {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+.imagen {
+    width: 27%;
+    /* ---Shadow--- */
+    box-shadow: -1px 2px 6px 0px rgba(115, 115, 115, 0.76);
+    -webkit-box-shadow: -1px 2px 6px 0px rgba(115, 115, 115, 0.76);
+    -moz-box-shadow: -1px 2px 6px 0px rgba(115, 115, 115, 0.76);
+
+}
+
+
+.detail-container {
+    width: 35%;
+    margin-left: 100px;
+}
+
+
+.titulo-tipo h1 {
+    font-family: 'Peralta',cursive;
+    font-size: 2em;
+}
+
+.titulo-tipo h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+
+.descripcion-caja h2 {
+    font-family: 'Alkalami', serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.descripcion-caja h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+
+.talles-caja h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+
+.talles-caja ul button {
+    margin-right: 3%;
+    padding: 1% 2%;
+    background-color: transparent;
+    border: 1px solid #000000;
+
+}
+
+.talles-caja ul button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.stock-container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.stock-container h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+}
+
+
+.precio-container {
+    margin-top: 3%;
+}
+
+.precio-container h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.precio-btnCount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
